@@ -1,0 +1,14 @@
+/control/max_angle_empty : 1
+/control/max_angle_green : 0.5
+/control/max_angle_yellow : 0.3
+/control/max_angle_red : -0.05
+
+/control/ratio_empty : 1
+/control/ratio_green : 0.7
+/control/ratio_yellow : 0.5
+/control/ratio_red : 0
+
+/attitude/max_thrust : 20.0
+/attitude/max_roll_angle : 50.0
+/attitude/max_pitch_angle : 50.0
+/attitude/max_yaw_rate : 1.0

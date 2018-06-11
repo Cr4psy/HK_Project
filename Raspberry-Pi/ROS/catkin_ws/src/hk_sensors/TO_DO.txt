@@ -1,0 +1,5 @@
+
+TO DO :
+
+- Implement the error handling strategy to the radar and sonar nodes (see how it's done in the ir node)
+- Implement the server parameters for the radar and sonar nodes (see how it's done in the ir node)

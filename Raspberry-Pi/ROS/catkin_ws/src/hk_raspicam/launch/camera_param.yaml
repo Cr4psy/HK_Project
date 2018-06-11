@@ -1,0 +1,4 @@
+/framerate : 5
+/quality : 10
+/camera_info_url : "package://hk_raspicam/calibrations/camera.yaml"
+/camera_name : "camera"

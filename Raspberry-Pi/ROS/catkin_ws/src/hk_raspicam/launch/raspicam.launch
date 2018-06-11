@@ -1,0 +1,14 @@
+<launch>
+	<rosparam file="$(find hk_raspicam)/launch/camera_param.yaml" command="load"/>
+	
+	<node
+		pkg="hk_raspicam"
+		type="raspicam_node"
+		name="raspicam_node"
+		output="screen"
+		respawn="true"
+		launch-prefix="$(find hk_raspicam)/launch/kickstart.sh"
+	/>
+
+</launch>
+

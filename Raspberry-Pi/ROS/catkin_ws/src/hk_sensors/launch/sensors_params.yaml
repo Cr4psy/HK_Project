@@ -1,0 +1,24 @@
+/sensors/general/sensors_fusion_rate : 15
+/sensors/general/sensors_fusion_sleep_rate : 1
+/sensors/general/sensors_nodes_sleep_rate : 1
+/sensors/general/yellow_threshold : 200
+/sensors/general/red_threshold : 100
+/sensors/general/faulty_not_read_nb : 100
+
+
+/sensors/ir/reading_rate : 25
+/sensors/ir/retry_rate : 1
+/sensors/ir/voltage_fail_low : 0.2
+/sensors/ir/voltage_fail_high : 3
+/sensors/ir/voltage_no_object : 0.5
+#/sensors/ir/max_range : 400
+
+/sensors/sonar/reading_rate : 25
+/sensors/sonar/retry_rate : 1
+#/sensors/sonar/cone : 67
+/sensors/sonar/max_range : 600
+
+/sensors/radar/max_range : 10000
+/sensors/radar/reading_rate : 25
+/sensors/radar/retry_rate : 1
+/sensors/radar/sensors_nodes_sleep_rate : 1

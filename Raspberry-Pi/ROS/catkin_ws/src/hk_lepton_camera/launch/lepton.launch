@@ -1,0 +1,6 @@
+<launch>
+	
+	<node pkg="hk_lepton_camera" type="leptonvideo" name="leptonvideo" output="screen" respawn="true"/>
+
+</launch>
+

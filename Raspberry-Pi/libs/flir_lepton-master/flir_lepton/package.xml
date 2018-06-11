@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<package format="2">
+  <name>flir_lepton</name>
+  <version>0.0.1</version>
+  <description>
+    Contains sources for working with Flir-Lepton LWIR camera under ROS.
+  </description>
+
+  <maintainer email="klpanagi@gmail.com">Konstantinos Panayiotou</maintainer>
+
+  <author email="klpanagi@gmail.com">Konstantinos Panayiotou</author>
+  <author email="aggelostriadafillidis@gmail.com">Angelos Triantafyllidis</author>
+
+  <license>BSD</license>
+
+  <buildtool_depend>catkin</buildtool_depend>
+
+  <exec_depend>flir_lepton_sensor</exec_depend>
+  <exec_depend>flir_lepton_image_processing</exec_depend>
+  <exec_depend>flir_lepton_msgs</exec_depend>
+  <exec_depend>flir_lepton_launchers</exec_depend>
+  <exec_depend>flir_lepton_auxiliary</exec_depend>
+
+  <export>
+    <metapackage />
+  </export>
+
+</package>

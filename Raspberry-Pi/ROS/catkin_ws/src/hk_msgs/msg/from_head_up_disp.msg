@@ -1,0 +1,2 @@
+Header header
+bool use_semi_automatic_mode

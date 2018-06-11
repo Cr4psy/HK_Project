@@ -1,0 +1,48 @@
+<launch>
+
+<rosparam file="$(find hk_sensors)/launch/sensors_params.yaml" command ="load"/>
+
+<node name="sensors_fusion" type="sensors_fusion" pkg="hk_sensors" output="screen" required="true">
+
+</node>
+
+<node name="radar_0" type ="radar.py" pkg="hk_sensors" args = "0" output="screen">
+</node>
+
+
+<node name="sonar_0" type="sonar.py" pkg="hk_sensors" args = "0" output="screen">
+
+</node>
+
+<node name="sonar_1" type="sonar.py" pkg="hk_sensors" args = "1" output="screen">
+
+</node>
+
+<node name="sonar_2" type="sonar.py" pkg="hk_sensors" args = "2" output="screen">
+
+</node>
+
+<node name="sonar_3" type="sonar.py" pkg="hk_sensors" args = "3" output="screen">
+
+</node>
+
+<node name="sonar_4" type="sonar.py" pkg="hk_sensors" args = "4" output="screen">
+
+</node>
+
+<node name="ir_0" type="ir.py" pkg="hk_sensors" args = "0" output="screen">
+
+</node>
+
+<node name="ir_1" type="ir.py" pkg="hk_sensors" args = "1" output="screen">
+
+</node>
+
+<node name="ir_2" type="ir.py" pkg="hk_sensors" args = "2" output="screen">
+
+</node>
+
+
+
+
+</launch>

@@ -1,0 +1,70 @@
+#include <iostream>
+#include <math.h>
+#include <vector>
+#include <list>
+using namespace std;
+
+#define RED 1
+#define YEL 2
+#define GRE 3
+
+
+/*Treshold that define the distance for the danger zone*/
+#define RED_TRESHOLD 200
+#define YEL_TRESHOLD 400
+#define TRESHOLD_SAME_OBJECT 10
+
+
+#define DRONE_RADIUS 30
+
+#define RADAR_MAX_RANGE 1000
+
+#define SONAR_CONE 67
+#define SONAR_MAX_RANGE 600
+
+#define LONG_IR_MAX_RANGE 400
+
+#define LIMIT_ZONE_IR 230
+
+
+/*Class for each zone defined*/
+class zone {
+    public:
+        int area;//Class of danger
+        bool detection;//Obstacle detected
+        bool prob;//Whether you are sure or not
+
+
+        void areaComputation(int distance){
+            if(distance <= RED_TRESHOLD){
+                area = RED;
+                return;
+            }
+            else if(distance<= YEL_TRESHOLD){
+                area = YEL;
+                return;
+            }
+            else{
+                area = GRE;
+                return;
+            }
+        }
+};
+
+int main()
+{
+
+vector<zone> allZone;
+
+for(i=1;i++;i<=15){
+    allZone.add(zone)
+}
+
+
+
+
+return 0;
+
+
+
+}

@@ -1,0 +1,9 @@
+subscribed_topics:
+  flir_batch_topic: /flir_lepton/batch
+
+published_topics:
+  # The outline, center and rectangle of the thermal rois found
+  candidate_rois_topic: /flir_lepton_image_proc/thermal_rois_body
+  # The yaw, pitch, probability and temperature of the thermal rois found
+  candidate_rois_alert_topic: /flir_lepton_image_proc/thermal_rois_info
+
